@@ -4,7 +4,7 @@ labels: bug
 title: [Bug]
 body:
 - type: dropdown
-    id: category
+    id: "category"
     attributes: 
     label: 问题类型
         options:
