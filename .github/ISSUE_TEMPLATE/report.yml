@@ -16,14 +16,14 @@ body:
       label: 举报类型
       multiple: true
       description: 违规行为的类型，可选择多个
-    validations:
-      required: true
-    options:
+      options:
         - 使用违规Mod
         - 聊天不适当内容
         - 恶意破坏
         - 盗窃/损毁其他玩家领地
         - 其他
+    validations:
+      required: true
   - type: textarea
     id: textarea-2
     attributes:
