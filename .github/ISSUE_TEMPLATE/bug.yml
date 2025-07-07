@@ -8,8 +8,6 @@ body:
     attributes:
       label: Bug类别
       description: Bug出现在哪个方面？
-    validations: 
-      required: true
       options:
         - Essentials-一般命令
         - HuskHomes-传送命令
@@ -17,6 +15,8 @@ body:
         - QuickShop-经济系统
         - 游戏特性
         - 其他问题
+    validations: 
+      required: true  
   - type: textarea
     id: textarea-1
     attributes:
