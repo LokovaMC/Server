@@ -8,8 +8,8 @@ body:
     attributes:
       label: Bug类别
       description: Bug出现在哪个方面？
-      validations: 
-        required: true
+    validations: 
+      required: true
       options:
         - Essentials-一般命令
         - HuskHomes-传送命令
@@ -22,23 +22,23 @@ body:
     attributes:
       label: Bug描述
     validations: 
-        required: true
+      required: true
   - type: textarea
     id: textarea-2
     attributes:
       label: 预期的行为
-      validations: 
-        required: true
+    validations: 
+      required: true
   - type: textarea
     id: textarea-3
     attributes:
       label: 复现步骤
-      validations: 
-        required: true
+    validations: 
+      required: true
   - type: textarea
     id: textarea-4
     attributes:
       label: 其他信息
       description: 例如客户端Mod列表、日志等
-      validations: 
-        required: true
+    validations: 
+      required: true
