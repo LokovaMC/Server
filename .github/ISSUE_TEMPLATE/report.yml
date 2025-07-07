@@ -18,7 +18,7 @@ body:
       description: 违规行为的类型，可选择多个
     validations:
       required: true
-      options:
+    options:
         - 使用违规Mod
         - 聊天不适当内容
         - 恶意破坏
