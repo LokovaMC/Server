@@ -1,5 +1,5 @@
-name: bug
-title: Bug报告
+name: Bug报告
+title: "[Bug报告]"
 description: 服务器内出现了不按预期运行的状况
 assignees: IlyaYezelovsky
 body:
