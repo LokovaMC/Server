@@ -1,45 +1,39 @@
 name: bug
-description: 报告服务器内不按预期运作的情况．
-labels: bug
-title: [Bug]
+title: Bug报告
+description: 服务器内出现了不按预期运行的状况
+assignees: IlyaYezelovsky
 body:
-- type: dropdown
-    id: "category"
-    attributes: 
-    label: 问题类型
-        options:
-            - 游戏特性
-            - 指令权限
-            - 经济/领地
-            - 其他问题
-    validations:
-        required: true
-- type: textarea
-    id: desc
+  - type: dropdown
+    id: dropdown-0
     attributes:
-        label: 问题描述
-        placeholder: 我在使用xx时，发现…
-    validations:
-        required: true
-- type: textarea
-    id: repo
+      label: Bug类别
+      description: Bug出现在哪个方面？
+      required: true
+      options:
+        - Essentials-一般命令
+        - HuskHomes-传送命令
+        - Residence-领地系统
+        - QuickShop-经济系统
+        - 游戏特性
+        - 其他问题
+  - type: textarea
+    id: textarea-1
     attributes:
-        label: 复现步骤
-        description: 产生该Bug的步骤
-        value: |
-            1.
-            2.
-            3.
-        validations:
-            required: true
-- type: checkboxes
-    id: check
+      label: Bug描述
+      required: true
+  - type: textarea
+    id: textarea-2
     attributes:
-        label: 确认
-        options:
-            - label: 我确认我使用的是与服务端核心相同的客户端版本
-                required: true
-            - label: 我确认我可以复现我描述的Bug
-                required: true
-            - label: 我确认我已搜索过Issues内无重复提交
-                required: true
+      label: 预期的行为
+      required: true
+  - type: textarea
+    id: textarea-3
+    attributes:
+      label: 复现步骤
+      required: true
+  - type: textarea
+    id: textarea-4
+    attributes:
+      label: 其他信息
+      description: 例如客户端Mod列表、日志等
+      required: true
