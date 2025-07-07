@@ -41,4 +41,4 @@ body:
       label: 其他信息
       description: 例如客户端Mod列表、日志等
     validations: 
-      required: true
+      required: false
