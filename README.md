@@ -1,2 +1,2 @@
 # Server
-Kumo no Mukou服务器主仓库
+LokovaMC 服务器主仓库
